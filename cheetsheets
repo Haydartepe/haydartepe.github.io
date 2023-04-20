@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="styles.css" rel="stylesheet">
+  </head>
+  <body>
+    <heading>
+    <h1>
+      Cheat Sheet
+    </h1>
+    </heading>
+    <!-- html kodu içine <code></code> elementi kullanarak html kodları göster -->
+
+    <h2>Tablo Etiketleri</h2>
+    <table>
+      <thead>
+        <tr><td>Etiket</td>
+        <td>İsim</td>
+        <td>Tanım</td></tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="tcell">&lttable&gt</span></td>
+        <td>Table</td>
+        <td>Tablo oluşturmak için kullanılan tag.</td>
+        </tr>
+         <tr>
+           <td><span class=tcell>&lthead&gt</span></td>
+        <td>Table Head</td>
+        <td>Tablo başlık kısmı.</td>
+        </tr>
+         <tr>
+           <td><span class="tcell">&lttbody&gt</span></td>
+        <td>Table Body</td>
+        <td>Tabloda verilen gösterildiği kısım.</td>
+        </tr>
+         <tr>
+           <td><span class="tcell">&lttfooter&gt</span></td>
+        <td>Table Footer</td>
+        <td>Table footer ksımı.</td>
+        </tr>
+        <tr>
+           <td><span class="tcell">&lttfooter&gt</span></td>
+        <td>Table Footer</td>
+        <td>Table footer kısmı.</td>
+        </tr>
+        <tr>
+           <td><span class="tcell">&lttr&gt</span></td>
+        <td>Table Row</td>
+        <td>Tabloda yeni satır oluşturur.</td>
+        </tr>
+        <tr>
+           <td><span class="tcell">&lttd&gt</span></td>
+        <td>Table Data</td>
+        <td>Tabloda yeni hücre oluşturur.</td>
+        </tr>
+        
+      </tbody>
+    </table>
+
+    <h2>HTML Element Özellikleri</h2>
+    <table>
+      <thead>
+        <tr>
+          <td>Özellik</td>
+          <td>Açıklama</td>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td><span class="tcell">id</span></td>
+          <td>Benzersiz bir kimlik belirleyerek css selectoru olarak kullanır.</td>
+        </tr>
+        <tr>
+          <td><span class="tcell">class</span></td>
+          <td>Css'te belirlenen sınıfta değişiklik yapılmasını sağlar.</td>
+        </tr>
+        <tr>
+          <td><span class="tcell">style</span></td>
+          <td>Inline css kodu yazmak için kullanılır.</td>
+        </tr>
+        <tr>
+          <td><span class="tcell">title</span></td>
+          <td>Mouse ile üzerine gelinen html elementi hakkında bilgi verir.</td>
+        </tr>
+        <tr>
+          <td><span class="tcell">alt</span></td>
+          <td>Resim yüklenediğinde resim içeriği hakkında bilgi verir.</td>
+        </tr>
+      </tbody>
+      
+    </table>
+
+  </body>
+</html>
