@@ -1,64 +1,115 @@
-h1 {
-  text-align: center;
-  font-family: Helvetica Neue;
-  font-weight: 500;
-  background-image: linear-gradient(
-  145deg,
-  hsl(240deg 100% 20%) 4%,
-  hsl(289deg 100% 21%) 43%,
-  hsl(315deg 100% 27%) 61%,
-  hsl(329deg 100% 36%) 73%,
-  hsl(337deg 100% 43%) 81%,
-  hsl(357deg 91% 59%) 88%,
-  hsl(17deg 100% 59%) 92%,
-  hsl(34deg 100% 53%) 96%,
-  hsl(45deg 100% 50%) 98%,
-  hsl(55deg 100% 50%) 100%
-);
-  border-radius: 5%;
-  color:white;
-  padding: 15px;
-  margin: 0 auto;
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Belanosima:wght@600&family=Poppins:ital,wght@0,400;1,200&display=swap');
+
+
+body {
+    background-color: #000000;
+    
+    font-family: 'Poppins', sans-serif;
 }
 
-h2 {
-  font-family: "Helvetica Neue";
-  text-align: center;
-  background-color: #D422AA;
-  color: white;
+nav {
+    display: flex;
+    border-bottom: #211159 solid 3px;
+   
 }
 
-table,thead,tbody,tr,td {
-  border: solid;
-  margin: 0 auto;
-  border-color: #943FFA;
-  font-family: Helvetica;
-  text-align: center;
-  
-
-}
-thead {
-  background-color: #D037DE;
-  color: white;
-  border-radius: 2%;
-
+ul {
+    display: flex;
+    justify-content: space-evenly;
+    margin-right: 20px;
+    align-items: center;
+    
 }
 
-table {
-  margin-top:50px;
-  border-radius:2%;
+#logo {
+    flex-grow: 1;
+    height: 75px;
+    width: 75px;
+}
+
+li {
+    list-style: none;
+    margin-left: 12px;
+    color: aliceblue;
+    border-radius: 50%;
+}
+
+li:hover {
+    color:aliceblue;
+    background-color: #9651ca;
+    cursor: pointer;
+}
+
+#whoami {
+    margin-top: 30px;
+    display: flex;
+    border-bottom: #211159 solid 3px;
+
+
 
 }
 
-td {
-  border-left:none;
-  border-right: none;
-  border-bottom: none;
-  padding: 10px;
+#welcome {
+    color: aliceblue;
+    text-align: center;
+    margin-left: 15px;
+    margin-top: 40px;
+    padding-top: 40px;
+   
+}
+.header {
+    color: #9651ca;
+    text-align: center;
+    font-size: 34px;
+}
+#quote {
+    border-bottom: #2111598a solid 3px;
 }
 
-.tcell {
-  background-color: #F5BDF6;
-  font-family: Monospace;
-  
+.main-quote {
+    color: aliceblue;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+    font-size: 22px;
+
+
+}
+
+.author {
+    color: #a07bbd;
+    text-align: center;
+    font-style: italic;
+    font-weight: 900;
+}
+
+.contact {
+    text-align: center;
+    margin-right: 15px;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+a {
+    text-decoration: none;
+    color: #9651ca;
+
+}
+
+a:hover {
+    color:aliceblue;
+    background-color: #9651ca;
+}
+
+#madewith {
+    color: aliceblue;
+    text-align: center;
 }
